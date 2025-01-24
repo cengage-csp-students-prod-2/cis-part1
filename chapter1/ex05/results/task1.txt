@@ -3,19 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Program outputs '36.0 cubic units' when user inputs 3, 6, and 2
 Reason: '36.0 cubic units' was found in the program's output.None
-Timestamp: 2025-01-24 03:05:35.063258
+Timestamp: 2025-01-24 03:07:15.606305
 
 Status: PASSED!
 Check: 2
 Test: Program outputs '2.0 cubic units' when user inputs 2, 2, and 0.5
 Reason: '2.0 cubic units' was found in the program's output.None
-Timestamp: 2025-01-24 03:05:35.081213
+Timestamp: 2025-01-24 03:07:15.623217
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Program outputs '4080.0 cubic units' when user inputs 17, 400, 0.6
-Reason: Unable to find '['4080.0 cubic units']' in the program's output.
-Enter width length: Enter the height: Enter the depth: The volume is 4079.9999999999995 cubic units.
-.
-Error : AssertionError - Unable to find 4080.0 cubic units in the program's output.
-Timestamp: 2025-01-24 03:05:35.098683
+Reason: '4080.0 cubic units' was found in the program's output.None
+Timestamp: 2025-01-24 03:07:15.639977
