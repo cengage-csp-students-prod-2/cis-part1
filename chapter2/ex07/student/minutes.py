@@ -1,3 +1,6 @@
-years = int(input("Enter number of years: "))
-minutesperyear= 525600%years
-print(f("It has been {minutesperyear} minutes!"))
+years = int(input("Enter the number of years: "))
+
+minutes_per_year = 365 * 24 * 60
+total_minutes = years * minutes_per_year
+
+print(f"The number of minutes in {years} years is {total_minutes}")
