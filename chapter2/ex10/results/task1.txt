@@ -3,30 +3,19 @@ Status: PASSED!
 Check: 1
 Test: Outputs 290.0 when inputs are 7.25, 40, and 0
 Reason: Output included 290.0None
-Timestamp: 2025-01-30 21:14:57.465642
+Timestamp: 2025-01-30 21:16:13.791260
 
 Status: PASSED!
 Check: 2
 Test: Outputs 421.76 when inputs are 13.18, 32, and 0
 Reason: Output included 421.76None
-Timestamp: 2025-01-30 21:14:57.482775
+Timestamp: 2025-01-30 21:16:13.808558
 
 Status: FAILED!
-Reason: Unable to run employeepay.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex10/employeepay.py", line 5, in <module>
-    overtimehours = int(input("Enter your total overtime hours worked: "))
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: invalid literal for int() with base 10: '7.5'
-
-Timestamp: 2025-01-30 21:14:57.599911
-
-Status: FAILED!
-Reason: Unable to run employeepay.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex10/employeepay.py", line 5, in <module>
-    overtimehours = int(input("Enter your total overtime hours worked: "))
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: invalid literal for int() with base 10: '7.5'
-
-Timestamp: 2025-01-30 21:14:57.600008
+Check: 3
+Test: Outputs 675.48 when inputs are 13.18, 40, and 7.5
+Reason: Unable to find '['675.48']' in the program's output.
+Enter your hourly wage: Enter your total hours worked: Enter your total overtime hours worked: Your total weekly pay is 675.475!
+.
+Error : AssertionError - Unable to find a number close enough to 675.48 (+/-0.00) in the program's output.
+Timestamp: 2025-01-30 21:16:13.825645
