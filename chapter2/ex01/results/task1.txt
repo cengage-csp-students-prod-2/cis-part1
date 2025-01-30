@@ -1,36 +1,12 @@
 
-Status: FAILED!
-Reason: Unable to run taxform.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex01/taxform.py", line 37
-    print("The income tax is $" + str((round(incomeTax,2)))
-         ^
-SyntaxError: '(' was never closed
+Status: PASSED!
+Check: 1
+Test: Output is rounded to two decimal places.
+Reason: Output was rounded to two decimal places.None
+Timestamp: 2025-01-30 19:32:33.474496
 
-Timestamp: 2025-01-30 19:31:40.989695
-
-Status: FAILED!
-Reason: Unable to run taxform.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex01/taxform.py", line 37
-    print("The income tax is $" + str((round(incomeTax,2)))
-         ^
-SyntaxError: '(' was never closed
-
-Timestamp: 2025-01-30 19:31:40.989825
-
-Status: FAILED!
-Reason: Unable to run taxform.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex01/taxform.py", line 37
-    print("The income tax is $" + str((round(incomeTax,2)))
-         ^
-SyntaxError: '(' was never closed
-
-Timestamp: 2025-01-30 19:31:41.116085
-
-Status: FAILED!
-Reason: Unable to run taxform.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex01/taxform.py", line 37
-    print("The income tax is $" + str((round(incomeTax,2)))
-         ^
-SyntaxError: '(' was never closed
-
-Timestamp: 2025-01-30 19:31:41.116198
+Status: PASSED!
+Check: 2
+Test: Output is rounded to two decimal places.
+Reason: Output was rounded to two decimal places.None
+Timestamp: 2025-01-30 19:32:33.491487
