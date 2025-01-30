@@ -6,7 +6,7 @@ Reason: Unable to find '['2.7']' in the program's output.
 Enter the distance in kilometers: The distance in nautical miles is 9.259259259259258
 .
 Error : AssertionError - Unable to find a number close enough to 2.7 (+/-0.00) in the program's output.
-Timestamp: 2025-01-30 20:54:22.123760
+Timestamp: 2025-01-30 20:56:12.053784
 
 Status: FAILED!
 Check: 2
@@ -15,7 +15,7 @@ Reason: Unable to find '['0.54']' in the program's output.
 Enter the distance in kilometers: The distance in nautical miles is 1.8518518518518516
 .
 Error : AssertionError - Unable to find a number close enough to 0.54 (+/-0.00) in the program's output.
-Timestamp: 2025-01-30 20:54:22.150916
+Timestamp: 2025-01-30 20:56:12.071909
 
 Status: FAILED!
 Check: 3
@@ -24,4 +24,4 @@ Reason: Unable to find '['16.74']' in the program's output.
 Enter the distance in kilometers: The distance in nautical miles is 57.4074074074074
 .
 Error : AssertionError - Unable to find a number close enough to 16.74 (+/-0.00) in the program's output.
-Timestamp: 2025-01-30 20:54:22.179249
+Timestamp: 2025-01-30 20:56:12.090255
