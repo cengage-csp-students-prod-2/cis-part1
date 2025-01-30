@@ -7,7 +7,7 @@ Error: Traceback (most recent call last):
                ^^^^^
 NameError: name 'years' is not defined. Did you mean: 'vars'?
 
-Timestamp: 2025-01-30 20:46:47.530892
+Timestamp: 2025-01-30 20:47:23.698572
 
 Status: FAILED!
 Reason: Unable to run lightyear.py
@@ -17,7 +17,7 @@ Error: Traceback (most recent call last):
                ^^^^^
 NameError: name 'years' is not defined. Did you mean: 'vars'?
 
-Timestamp: 2025-01-30 20:46:47.531018
+Timestamp: 2025-01-30 20:47:23.698742
 
 Status: FAILED!
 Reason: Unable to run lightyear.py
@@ -27,7 +27,7 @@ Error: Traceback (most recent call last):
                ^^^^^
 NameError: name 'years' is not defined. Did you mean: 'vars'?
 
-Timestamp: 2025-01-30 20:46:47.645533
+Timestamp: 2025-01-30 20:47:23.822788
 
 Status: FAILED!
 Reason: Unable to run lightyear.py
@@ -37,7 +37,7 @@ Error: Traceback (most recent call last):
                ^^^^^
 NameError: name 'years' is not defined. Did you mean: 'vars'?
 
-Timestamp: 2025-01-30 20:46:47.645637
+Timestamp: 2025-01-30 20:47:23.822857
 
 Status: FAILED!
 Reason: Unable to run lightyear.py
@@ -47,7 +47,7 @@ Error: Traceback (most recent call last):
                ^^^^^
 NameError: name 'years' is not defined. Did you mean: 'vars'?
 
-Timestamp: 2025-01-30 20:46:47.797535
+Timestamp: 2025-01-30 20:47:23.927425
 
 Status: FAILED!
 Reason: Unable to run lightyear.py
@@ -57,4 +57,4 @@ Error: Traceback (most recent call last):
                ^^^^^
 NameError: name 'years' is not defined. Did you mean: 'vars'?
 
-Timestamp: 2025-01-30 20:46:47.797628
+Timestamp: 2025-01-30 20:47:23.927497
