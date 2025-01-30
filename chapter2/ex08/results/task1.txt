@@ -1,0 +1,60 @@
+
+Status: FAILED!
+Reason: Unable to run lightyear.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex08/lightyear.py", line 6, in <module>
+    distance = years * SPEED_OF_LIGHT * SECONDS_PER_YEAR
+               ^^^^^
+NameError: name 'years' is not defined. Did you mean: 'vars'?
+
+Timestamp: 2025-01-30 20:45:56.393279
+
+Status: FAILED!
+Reason: Unable to run lightyear.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex08/lightyear.py", line 6, in <module>
+    distance = years * SPEED_OF_LIGHT * SECONDS_PER_YEAR
+               ^^^^^
+NameError: name 'years' is not defined. Did you mean: 'vars'?
+
+Timestamp: 2025-01-30 20:45:56.393380
+
+Status: FAILED!
+Reason: Unable to run lightyear.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex08/lightyear.py", line 6, in <module>
+    distance = years * SPEED_OF_LIGHT * SECONDS_PER_YEAR
+               ^^^^^
+NameError: name 'years' is not defined. Did you mean: 'vars'?
+
+Timestamp: 2025-01-30 20:45:56.536220
+
+Status: FAILED!
+Reason: Unable to run lightyear.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex08/lightyear.py", line 6, in <module>
+    distance = years * SPEED_OF_LIGHT * SECONDS_PER_YEAR
+               ^^^^^
+NameError: name 'years' is not defined. Did you mean: 'vars'?
+
+Timestamp: 2025-01-30 20:45:56.536332
+
+Status: FAILED!
+Reason: Unable to run lightyear.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex08/lightyear.py", line 6, in <module>
+    distance = years * SPEED_OF_LIGHT * SECONDS_PER_YEAR
+               ^^^^^
+NameError: name 'years' is not defined. Did you mean: 'vars'?
+
+Timestamp: 2025-01-30 20:45:56.648847
+
+Status: FAILED!
+Reason: Unable to run lightyear.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex08/lightyear.py", line 6, in <module>
+    distance = years * SPEED_OF_LIGHT * SECONDS_PER_YEAR
+               ^^^^^
+NameError: name 'years' is not defined. Did you mean: 'vars'?
+
+Timestamp: 2025-01-30 20:45:56.648926
