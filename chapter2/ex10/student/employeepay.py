@@ -8,4 +8,4 @@ overtime = hourly * 1.5
 overtimepay = overtime * overtimehours
 regularpay = hours * hourly
 totalpay  = overtimepay + regularpay
-print(f"Your total weekly pay is {totalpay:.2f}!")
+print(f"Your total weekly pay is ${totalpay:.2f}!")
