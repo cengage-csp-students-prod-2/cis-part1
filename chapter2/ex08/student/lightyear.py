@@ -5,5 +5,5 @@ num_of_years = float(input("Enter number of years: "))
 
 distance = years * SPEED_OF_LIGHT * SECONDS_PER_YEAR
 
-print(f"The distance light travels in {years} years is {distance} meters")
+print(f"The distance light travels in {num_of_years} years is {distance} meters")
 
