@@ -1,21 +1,60 @@
 
-Status: PASSED!
-Check: 1
-Test: Outputs 290.0 when inputs are 7.25, 40, and 0
-Reason: Output included 290.0None
-Timestamp: 2025-01-30 21:12:01.225165
+Status: FAILED!
+Reason: Unable to run employeepay.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex10/employeepay.py", line 3, in <module>
+    hourly = int(input("Enter your hourly wage: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.25'
 
-Status: PASSED!
-Check: 2
-Test: Outputs 421.76 when inputs are 13.18, 32, and 0
-Reason: Output included 421.76None
-Timestamp: 2025-01-30 21:12:01.242065
+Timestamp: 2025-01-30 21:13:59.384917
 
 Status: FAILED!
-Check: 3
-Test: Outputs 675.48 when inputs are 13.18, 40, and 7.5
-Reason: Unable to find '['675.48']' in the program's output.
-Enter your hourly wage: Enter your total hours worked: Enter your total overtime hours worked: Your total weekly pay is 675.475
-.
-Error : AssertionError - Unable to find a number close enough to 675.48 (+/-0.00) in the program's output.
-Timestamp: 2025-01-30 21:12:01.259171
+Reason: Unable to run employeepay.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex10/employeepay.py", line 3, in <module>
+    hourly = int(input("Enter your hourly wage: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.25'
+
+Timestamp: 2025-01-30 21:13:59.385109
+
+Status: FAILED!
+Reason: Unable to run employeepay.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex10/employeepay.py", line 3, in <module>
+    hourly = int(input("Enter your hourly wage: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '13.18'
+
+Timestamp: 2025-01-30 21:13:59.540725
+
+Status: FAILED!
+Reason: Unable to run employeepay.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex10/employeepay.py", line 3, in <module>
+    hourly = int(input("Enter your hourly wage: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '13.18'
+
+Timestamp: 2025-01-30 21:13:59.540833
+
+Status: FAILED!
+Reason: Unable to run employeepay.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex10/employeepay.py", line 3, in <module>
+    hourly = int(input("Enter your hourly wage: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '13.18'
+
+Timestamp: 2025-01-30 21:13:59.700523
+
+Status: FAILED!
+Reason: Unable to run employeepay.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex10/employeepay.py", line 3, in <module>
+    hourly = int(input("Enter your hourly wage: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '13.18'
+
+Timestamp: 2025-01-30 21:13:59.700616
