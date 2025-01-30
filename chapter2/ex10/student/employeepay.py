@@ -1,6 +1,6 @@
 # Write your program here
 
-hourly = int(input("Enter your hourly wage: "))
+hourly = float(input("Enter your hourly wage: "))
 hours = int(input("Enter your total hours worked: "))
 overtimehours = int(input("Enter your total overtime hours worked: "))
 
