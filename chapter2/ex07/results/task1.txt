@@ -1,60 +1,18 @@
 
-Status: FAILED!
-Reason: Unable to run minutes.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex07/minutes.py", line 3, in <module>
-    print(f("It has been {minutesperyear} minutes!"))
-          ^
-NameError: name 'f' is not defined
+Status: PASSED!
+Check: 1
+Test: Outputs 2628000 when input is 5
+Reason: Output included 2628000None
+Timestamp: 2025-01-30 20:33:37.703339
 
-Timestamp: 2025-01-30 20:27:03.254293
+Status: PASSED!
+Check: 2
+Test: Outputs 525600 when input is 1
+Reason: Output included 525600None
+Timestamp: 2025-01-30 20:33:37.720246
 
-Status: FAILED!
-Reason: Unable to run minutes.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex07/minutes.py", line 3, in <module>
-    print(f("It has been {minutesperyear} minutes!"))
-          ^
-NameError: name 'f' is not defined
-
-Timestamp: 2025-01-30 20:27:03.254427
-
-Status: FAILED!
-Reason: Unable to run minutes.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex07/minutes.py", line 3, in <module>
-    print(f("It has been {minutesperyear} minutes!"))
-          ^
-NameError: name 'f' is not defined
-
-Timestamp: 2025-01-30 20:27:03.354891
-
-Status: FAILED!
-Reason: Unable to run minutes.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex07/minutes.py", line 3, in <module>
-    print(f("It has been {minutesperyear} minutes!"))
-          ^
-NameError: name 'f' is not defined
-
-Timestamp: 2025-01-30 20:27:03.354956
-
-Status: FAILED!
-Reason: Unable to run minutes.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex07/minutes.py", line 3, in <module>
-    print(f("It has been {minutesperyear} minutes!"))
-          ^
-NameError: name 'f' is not defined
-
-Timestamp: 2025-01-30 20:27:03.471146
-
-Status: FAILED!
-Reason: Unable to run minutes.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter2/ex07/minutes.py", line 3, in <module>
-    print(f("It has been {minutesperyear} minutes!"))
-          ^
-NameError: name 'f' is not defined
-
-Timestamp: 2025-01-30 20:27:03.471237
+Status: PASSED!
+Check: 3
+Test: Outputs 16293600 when input is 31
+Reason: Output included 16293600None
+Timestamp: 2025-01-30 20:33:37.737182
