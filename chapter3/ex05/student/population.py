@@ -16,4 +16,4 @@ growth_periods = total_hours // hours_to_achieve_growth
 total_population = initial_organisms * (growth_rate ** growth_periods)
 
 # Display the total population
-print(f"The total population is {total_population}")
+print("The total population is ", total_population)
