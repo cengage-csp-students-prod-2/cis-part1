@@ -11,7 +11,7 @@ Enter the first positive integer: Enter the second positive integer: Finding the
 The GCD is 5
 .
 Error : AssertionError - Unable to find The greatest common divisor is 5 in the program's output.
-Timestamp: 2025-02-06 18:01:54.882764
+Timestamp: 2025-02-06 18:02:34.516741
 
 Status: FAILED!
 Check: 2
@@ -25,7 +25,7 @@ Enter the first positive integer: Enter the second positive integer: Finding the
 The GCD is 4
 .
 Error : AssertionError - Unable to find The greatest common divisor is 4 in the program's output.
-Timestamp: 2025-02-06 18:01:54.909562
+Timestamp: 2025-02-06 18:02:34.534491
 
 Status: FAILED!
 Check: 3
@@ -39,4 +39,4 @@ Enter the first positive integer: Enter the second positive integer: Finding the
 The GCD is 2
 .
 Error : AssertionError - Unable to find The greatest common divisor is 2 in the program's output.
-Timestamp: 2025-02-06 18:01:54.935650
+Timestamp: 2025-02-06 18:02:34.552498
