@@ -18,7 +18,7 @@ def main():
     total_distance = calculate_total_distance(initial_height, bounciness_index, num_bounces)
 
     # Output the result
-    print(f"Total distance traveled is: {total_distance:.3f} units.")
+    print(f"Total distance traveled is: {total_distance} units.")
 
 if __name__ == "__main__":
     main()
