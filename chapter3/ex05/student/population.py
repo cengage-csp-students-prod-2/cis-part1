@@ -32,6 +32,6 @@ total_population = initial_organisms * (growth_rate ** growth_periods)
 if total_population.is_integer():
     total_population = int(total_population)  # Convert to an integer if it's a whole number
 else:
-    total_population = round(total_population, 2)  # Otherwise, round it to two decimal places
+    total_population = int(total_population)  # Otherwise, round it to two decimal places
 
 print(f"The total population is {total_population}")
