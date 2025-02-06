@@ -6,7 +6,7 @@ Reason: Unable to find '['34.875']' in the program's output.
 Enter the height from which the ball is dropped: Enter the bounciness index of the ball: Enter the number of times the ball is allowed to continue bouncing: Total distance traveled is: 35.250 units.
 .
 Error : AssertionError - Unable to find a number close enough to 34.875 (+/-0.00) in the program's output.
-Timestamp: 2025-02-06 17:16:31.075074
+Timestamp: 2025-02-06 17:21:13.416296
 
 Status: FAILED!
 Check: 2
@@ -15,4 +15,4 @@ Reason: Unable to find '['166.015625']' in the program's output.
 Enter the height from which the ball is dropped: Enter the bounciness index of the ball: Enter the number of times the ball is allowed to continue bouncing: Total distance traveled is: 166.406 units.
 .
 Error : AssertionError - Unable to find a number close enough to 166.015625 (+/-0.00) in the program's output.
-Timestamp: 2025-02-06 17:16:31.092238
+Timestamp: 2025-02-06 17:21:13.433620
