@@ -1,0 +1,15 @@
+
+Status: PASSED!
+Check: 1
+Test: Program outputs 'triangle is equilateral' when user inputs 44, 44, and 44
+Reason: 'triangle is equilateral' was found in the program's output.None
+Timestamp: 2025-02-06 16:37:22.534417
+
+Status: FAILED!
+Check: 2
+Test: Program outputs 'triangle is not equilateral' when user inputs 44, 77, and 63
+Reason: Unable to find '['triangle is not equilateral']' in the program's output.
+Enter the first side: Enter the second side: Enter the third side: This is not equilateral.
+.
+Error : AssertionError - Unable to find triangle is not equilateral in the program's output.
+Timestamp: 2025-02-06 16:37:22.552608
