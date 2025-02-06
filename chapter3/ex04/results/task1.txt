@@ -3,7 +3,7 @@ Status: PASSED!
 Check: 1
 Test: Program outputs '34.875' when user inputs 12, .5, and 5
 Reason: '34.875' was found in the program's output.None
-Timestamp: 2025-02-06 17:26:17.205559
+Timestamp: 2025-02-06 17:27:24.780768
 
 Status: FAILED!
 Check: 2
@@ -12,4 +12,4 @@ Reason: Unable to find '['166.015625']' in the program's output.
 Enter the height from which the ball is dropped: Enter the bounciness index of the ball (between 0 and 1): Enter the number of times the ball is allowed to continue bouncing: Total distance traveled is: 166.016 units.
 .
 Error : AssertionError - Unable to find a number close enough to 166.015625 (+/-0.00) in the program's output.
-Timestamp: 2025-02-06 17:26:17.222890
+Timestamp: 2025-02-06 17:27:24.797964
