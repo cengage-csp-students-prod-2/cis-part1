@@ -6,4 +6,4 @@ if side1 == side2 == side3:
     print("The triangle is equilateral.")
 
 else:
-    print("This is not equilateral.")
+    print("Triangle is not equilateral.")
