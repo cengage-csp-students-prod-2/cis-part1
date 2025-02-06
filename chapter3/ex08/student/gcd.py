@@ -18,4 +18,4 @@ while b != 0:
     a, b = b, remainder
 
 # The GCD is the last non-zero value of a
-print(f"The GCD is {a}")
+print(f"The greatest common divisor is {a}")
