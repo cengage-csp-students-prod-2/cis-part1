@@ -1,42 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Program outputs correct values when user inputs 35 and 100
-Reason: Unable to find '['The greatest common divisor is 5']' in the program's output.
-Enter the first positive integer: Enter the second positive integer: Finding the GCD of 35 and 100 using Euclid's algorithm:
-35 % 100 = 35
-100 % 35 = 30
-35 % 30 = 5
-30 % 5 = 0
-The GCD is 5
-.
-Error : AssertionError - Unable to find The greatest common divisor is 5 in the program's output.
-Timestamp: 2025-02-06 18:02:34.516741
+Reason: 5 was found in the program's output.None
+Timestamp: 2025-02-06 18:03:38.059130
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Program outputs correct values when user inputs 12 and 44
-Reason: Unable to find '['The greatest common divisor is 4']' in the program's output.
-Enter the first positive integer: Enter the second positive integer: Finding the GCD of 12 and 44 using Euclid's algorithm:
-12 % 44 = 12
-44 % 12 = 8
-12 % 8 = 4
-8 % 4 = 0
-The GCD is 4
-.
-Error : AssertionError - Unable to find The greatest common divisor is 4 in the program's output.
-Timestamp: 2025-02-06 18:02:34.534491
+Reason: 4 was found in the program's output.None
+Timestamp: 2025-02-06 18:03:38.076387
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Program outputs correct values when user inputs 22 and 76
-Reason: Unable to find '['The greatest common divisor is 2']' in the program's output.
-Enter the first positive integer: Enter the second positive integer: Finding the GCD of 22 and 76 using Euclid's algorithm:
-22 % 76 = 22
-76 % 22 = 10
-22 % 10 = 2
-10 % 2 = 0
-The GCD is 2
-.
-Error : AssertionError - Unable to find The greatest common divisor is 2 in the program's output.
-Timestamp: 2025-02-06 18:02:34.552498
+Reason: 2 was found in the program's output.None
+Timestamp: 2025-02-06 18:03:38.093233
