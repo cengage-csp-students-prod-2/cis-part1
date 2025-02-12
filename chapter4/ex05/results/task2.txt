@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Program outputs 1011 when user inputs 0111
 Reason: 1011 was found in the program's output.None
-Timestamp: 2025-02-12 21:19:29.267803
+Timestamp: 2025-02-12 21:29:46.293967
 
 Status: PASSED!
 Check: 2
 Test: Program outputs "smitten" when user inputs mittens
 Reason: smitten was found in the program's output.None
-Timestamp: 2025-02-12 21:19:29.294235
+Timestamp: 2025-02-12 21:29:46.322721
