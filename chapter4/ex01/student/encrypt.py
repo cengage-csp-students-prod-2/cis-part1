@@ -19,7 +19,7 @@ def main():
     
     while True:
         try:
-            distance = float(input("Enter the distance value (integer): "))
+            distance = int(input("Enter the distance value (integer): "))
             break
         except ValueError:
             print("Please enter a valid integer for the distance value.")
