@@ -1,0 +1,15 @@
+
+Status: PASSED!
+Check: 1
+Test: Program outputs 0111 when user inputs 1011
+Reason: 0111 was found in the program's output.None
+Timestamp: 2025-02-12 21:15:51.247793
+
+Status: FAILED!
+Check: 2
+Test: Program outputs "mittens" when user inputs smitten
+Reason: Unable to find '['mittens']' in the program's output.
+Enter a bit string: Invalid input: Please enter a valid bit string (only 0s and 1s).
+.
+Error : AssertionError - Unable to find mittens in the program's output.
+Timestamp: 2025-02-12 21:15:51.265370
