@@ -3,13 +3,13 @@ Status: PASSED!
 Check: 1
 Test: Program outputs correct values when user inputs message and distance of 2
 Reason: 'cdefgh' was found in the program's output.None
-Timestamp: 2025-02-12 20:29:12.120571
+Timestamp: 2025-02-12 20:35:49.222208
 
 Status: FAILED!
 Check: 2
 Test: Program outputs correct values when user inputs message and distance of 127
 Reason: Unable to find '['`abcde']' in the program's output.
-Enter the plaintext: Enter the distance value (integer): Encrypted text: 
+Enter the plaintext: Enter the distance value (integer): Encrypted text: "#$%&'
 .
 Error : AssertionError - Unable to find `abcde in the program's output.
-Timestamp: 2025-02-12 20:29:12.140317
+Timestamp: 2025-02-12 20:35:49.240261
