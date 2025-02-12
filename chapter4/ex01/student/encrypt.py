@@ -1,6 +1,8 @@
 # encrypt.py
 
 def caesar_cipher(plaintext, distance):
+    # Normalize the distance to be within the range of printable characters
+    distance = distance % 95  # 95 printable characters from 32 to 126
     encrypted_text = []
     
     for char in plaintext:
