@@ -1,33 +1,37 @@
-# encrypt.py
-
-def caesar_cipher(plaintext, distance):
-    # Normalize the distance to be within the range of printable characters
-    distance = distance % 95  # 95 printable characters from 32 to 126
-    encrypted_text = []
+def caesar_encrypt(plaintext, distance):
+    encrypted_text = ""
     
     for char in plaintext:
-        # Shift only printable ASCII characters
-        if 32 <= ord(char) <= 126:
-            # Calculate the new character with wrapping
-            shifted_char = chr((ord(char) - 32 + distance) % 95 + 32)
-            encrypted_text.append(shifted_char)
+        if char.isprintable():
+            new_char = chr((ord(char) - 32 + distance) % 95 + 32)
+            encrypted_text += new_char
         else:
-            encrypted_text.append(char)  # Keep non-printable characters unchanged
+            encrypted_text += char
+            
+    return encrypted_text
+
+def encrypt_file(input_file, output_file, distance):
+    with open(input_file, 'r', encoding='utf-8') as infile:
+        plaintext = infile.read()
     
-    return ''.join(encrypted_text)
+    encrypted_text = caesar_encrypt(plaintext, distance)
+    
+    with open(output_file, 'w', encoding='utf-8') as outfile:
+        outfile.write(encrypted_text)
 
 def main():
-    plaintext = input("Enter the plaintext: ")
+    input_file = input("Enter the input file name (to encrypt): ")
+    output_file = input("Enter the output file name (for encrypted text): ")
     
     while True:
         try:
-            distance = int(input("Enter the distance value (integer): "))
+            distance = int(input("Enter the distance value (shift): "))
             break
         except ValueError:
             print("Please enter a valid integer for the distance value.")
     
-    encrypted_text = caesar_cipher(plaintext, distance)
-    print("Encrypted text:", encrypted_text)
+    encrypt_file(input_file, output_file, distance)
+    print(f"File '{input_file}' has been encrypted and saved as '{output_file}'.")
 
 if __name__ == "__main__":
     main()
