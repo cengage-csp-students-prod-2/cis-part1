@@ -2,23 +2,27 @@ def caesar_decrypt(encrypted_text, distance):
     decrypted_text = ""
     
     for char in encrypted_text:
-        # Check if the character is printable
         if char.isprintable():
-            # Shift the character by the distance value
-            # Wrap around using modulo for printable characters
             new_char = chr((ord(char) - 32 - distance) % 95 + 32)
             decrypted_text += new_char
         else:
-            # If it's not printable, just append it as is
             decrypted_text += char
             
     return decrypted_text
 
-def main():
-    # Input encrypted text
-    encrypted_text = input("Enter the encrypted text: ")
+def decrypt_file(input_file, output_file, distance):
+    with open(input_file, 'r', encoding='utf-8') as infile:
+        encrypted_text = infile.read()
     
-    # Input distance value
+    decrypted_text = caesar_decrypt(encrypted_text, distance)
+    
+    with open(output_file, 'w', encoding='utf-8') as outfile:
+        outfile.write(decrypted_text)
+
+def main():
+    input_file = input("Enter the input file name (to decrypt): ")
+    output_file = input("Enter the output file name (for decrypted text): ")
+    
     while True:
         try:
             distance = int(input("Enter the distance value (shift): "))
@@ -26,11 +30,8 @@ def main():
         except ValueError:
             print("Please enter a valid integer for the distance value.")
     
-    # Decrypt the text
-    decrypted_text = caesar_decrypt(encrypted_text, distance)
-    
-    # Output the decrypted plaintext
-    print("Decrypted plaintext:", decrypted_text)
+    decrypt_file(input_file, output_file, distance)
+    print(f"File '{input_file}' has been decrypted and saved as '{output_file}'.")
 
 if __name__ == "__main__":
     main()
