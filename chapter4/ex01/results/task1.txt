@@ -1,60 +1,15 @@
 
-Status: FAILED!
-Reason: Unable to run encrypt.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 31, in <module>
-    main()
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 27, in main
-    encrypted_text = caesar_cipher(plaintext, distance)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 10, in caesar_cipher
-    shifted_char = chr((ord(char) - 32 + distance) % 95 + 32)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: 'float' object cannot be interpreted as an integer
-
-Timestamp: 2025-02-12 20:36:43.166904
+Status: PASSED!
+Check: 1
+Test: Program outputs correct values when user inputs message and distance of 2
+Reason: 'cdefgh' was found in the program's output.None
+Timestamp: 2025-02-12 20:37:11.100492
 
 Status: FAILED!
-Reason: Unable to run encrypt.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 31, in <module>
-    main()
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 27, in main
-    encrypted_text = caesar_cipher(plaintext, distance)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 10, in caesar_cipher
-    shifted_char = chr((ord(char) - 32 + distance) % 95 + 32)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: 'float' object cannot be interpreted as an integer
-
-Timestamp: 2025-02-12 20:36:43.167015
-
-Status: FAILED!
-Reason: Unable to run encrypt.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 31, in <module>
-    main()
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 27, in main
-    encrypted_text = caesar_cipher(plaintext, distance)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 10, in caesar_cipher
-    shifted_char = chr((ord(char) - 32 + distance) % 95 + 32)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: 'float' object cannot be interpreted as an integer
-
-Timestamp: 2025-02-12 20:36:43.325327
-
-Status: FAILED!
-Reason: Unable to run encrypt.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 31, in <module>
-    main()
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 27, in main
-    encrypted_text = caesar_cipher(plaintext, distance)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/9780357881019-fundamentals-of-python-3e-4428f93d-289b-423a-969b-da834b7c7c29/python/chapter4/ex01/encrypt.py", line 10, in caesar_cipher
-    shifted_char = chr((ord(char) - 32 + distance) % 95 + 32)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: 'float' object cannot be interpreted as an integer
-
-Timestamp: 2025-02-12 20:36:43.325425
+Check: 2
+Test: Program outputs correct values when user inputs message and distance of 127
+Reason: Unable to find '['`abcde']' in the program's output.
+Enter the plaintext: Enter the distance value (integer): Encrypted text: "#$%&'
+.
+Error : AssertionError - Unable to find `abcde in the program's output.
+Timestamp: 2025-02-12 20:37:11.118329
