@@ -1,18 +1,15 @@
-def shift_left(bit_string):
-    if not all(bit in '01' for bit in bit_string):
-        print("Invalid input: Please enter a valid bit string (only 0s and 1s).")
-        return None
-    
-    # Shift left: move the leftmost bit to the rightmost position
-    shifted_string = bit_string[1:] + bit_string[0]
+def shift_left(string):
+    if len(string) == 0:
+        return string  # Return empty string if input is empty
+    # Shift left: move the first character to the end
+    shifted_string = string[1:] + string[0]
     return shifted_string
 
 def main():
-    bit_string = input("Enter a bit string: ")
-    result = shift_left(bit_string)
+    user_input = input("Enter a string: ")
+    result = shift_left(user_input)
     
-    if result is not None:
-        print(f"Result after shifting left: {result}")
+    print(f"Result after shifting left: {result}")
 
 if __name__ == "__main__":
     main()
