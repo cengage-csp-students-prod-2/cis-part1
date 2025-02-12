@@ -3,13 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Program outputs 1011 when user inputs 0111
 Reason: 1011 was found in the program's output.None
-Timestamp: 2025-02-12 21:15:51.283196
+Timestamp: 2025-02-12 21:18:58.308762
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Program outputs "smitten" when user inputs mittens
-Reason: Unable to find '['smitten']' in the program's output.
-Enter a bit string: Invalid input: Please enter a valid bit string (only 0s and 1s).
-.
-Error : AssertionError - Unable to find smitten in the program's output.
-Timestamp: 2025-02-12 21:15:51.301963
+Reason: smitten was found in the program's output.None
+Timestamp: 2025-02-12 21:18:58.326496
